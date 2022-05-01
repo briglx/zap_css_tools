@@ -46,7 +46,7 @@ javascript:(
         var i,x;for(i=0;x=document.styleSheets[i];++i)x.disabled=true;
         var imgs=document.getElementsByTagName("img");for(i=0;i<imgs.length;i++)imgs[i].style.display="none"
         var frames=document.getElementsByTagName("iframe");for(i=0;i<frames.length;i++)frames[i].style.display="none";
-        var svgs=document.getElementsByTagName("svg"),for(i=0;i<svgs.length;i++)svgs[i].style.display="none";
+        var svgs=document.getElementsByTagName("svg");for(i=0;i<svgs.length;i++)svgs[i].style.display="none";
         var head = document.getElementsByTagName('head')[0];
         var style = document.createElement('link');
         style.href = 'https://raw.githubusercontent.com/briglx/zap_css_tools/main/zapcss.min.css';
