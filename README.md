@@ -28,4 +28,8 @@ javascript:(function(){var imgs=document.getElementsByTagName("img"),frames=docu
 
 # Reboot CSS
 javascript:(function(){var head = document.getElementsByTagName('head')[0];var style = document.createElement('link');style.href = 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap-reboot.css';style.type = 'text/css';style.rel = 'stylesheet';head.append(style);})();
+
+# Combined and minimized
+
+javascript:(function(){var i,x;for(i=0;x=document.styleSheets[i];++i)x.disabled=!0;var imgs=document.getElementsByTagName("img"),frames=document.getElementsByTagName("iframe");for(i=0;i<imgs.length;i++)imgs[i].style.display="none";for(i=0;i<frames.length;i++)frames[i].style.display="none";var head=document.getElementsByTagName("head")[0],style=document.createElement("link");style.href="https://raw.githubusercontent.com/briglx/zap_css_tools/main/zapcss.min.css",style.type="text/css",style.rel="stylesheet",head.append(style)}());
 ```
