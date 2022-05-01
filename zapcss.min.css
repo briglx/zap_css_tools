@@ -324,4 +324,8 @@ template {
   display: none !important;
 }
 
+body{
+  margin: 1em 3em;
+}
+
 /*# sourceMappingURL=bootstrap-reboot.css.map */
